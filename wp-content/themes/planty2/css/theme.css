@@ -1,0 +1,38 @@
+/*
+Theme Name:     Planty2
+Theme URI:      http://localhost:8888/planty2/
+Description:    Theme Planty2 basé sur le thème Neve
+Author:         Planty Man
+Author URI:     http://localhost:8888/planty2/
+Template:       neve
+Version:        3.5.8
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Tags:           Boissons naturelles aux fruits, Boissons energisantes
+Text Domain:    planty2
+*/
+
+
+
+
+
+
+
+.mon-footer {
+    font-weight: 400;
+    margin: 0px;
+    padding: 20px, 0px;
+    font-size: 16px;
+    background-color: white;
+    width: 100% ;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.effet-mon-footer:hover {
+    color:black;
+}
+
+
