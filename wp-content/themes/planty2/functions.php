@@ -9,7 +9,7 @@ function theme_enqueue_styles()
 
 function planty_admin_nav($items) {
     if (is_user_logged_in()) {
-        $items .= '<li><a href="'. get_admin_url() .'">Admin</a></li>';
+        $items .= '<li class="lienAdmin"><a href="'. get_admin_url() .'">Admin</a></li>';
     }
     return $items;
 }
