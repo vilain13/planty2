@@ -15,9 +15,9 @@ Text Domain:    planty2
 
 
 
+/** Footer **/
 
-
-.mon-footer {
+.monFooter {
     font-weight: 400;
     font-size: 16px;
     background-color: white;
@@ -28,7 +28,7 @@ Text Domain:    planty2
     align-items: center;
 }
 
-.effet-mon-footer:hover {
+.effetMonFooter:hover {
     color:black;
 }
 
@@ -38,3 +38,163 @@ Text Domain:    planty2
 }
 
 
+
+
+/** Formulaire quantités commandées Page Commander **/
+.conteneurPrincipalFormquantite {
+    display:flex;
+    height: 80px;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.conteneurQuantite {
+    display:flex;
+}
+
+.conteneurPrincipalFormquantite input[type="text"] {
+    display:block !important;
+    height: 56px !important;
+    width: 51px !important;
+    border-radius: 8px 0 0 8px !important;
+    font-size: 20px !important;
+    color: red !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+
+}
+
+.boutonQuantite{
+    display: flex !important;
+    flex-direction: column !important;
+    height: 56px !important; 
+    margin-top: 4px !important;
+    margin-right: 30px;
+}
+
+.boutonPlus,
+.boutonMoins {
+    display: block !important;
+    height: 28px !important;
+    line-height: 28px !important;
+    text-align: center !important;
+    width: 30px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #DC9F96 !important;
+
+}
+
+.boutonPlus {
+    border-bottom: solid 1px #fFFFFF !important;
+    border-radius:0px !important;
+    border-top-right-radius: 8px !important;
+
+}
+
+.boutonMoins {
+    border-radius:0px !important;
+    border-bottom-right-radius: 8px !important;
+    margin-top: -30px !important;
+}
+
+.boutonOk  {
+    height: 56px !important;
+    border-radius: 5px !important;
+    width: 100px !important; 
+    margin-left: 11px !important;
+}
+
+/**[type="submit"]**/
+
+
+/** Formulaire Livraison  Page Commander **/
+
+.formcomConteneurPrincipal {
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+    margin-top:  55px !important;
+    margin-bottom:  45px !important;
+}
+
+.stitreCommande{
+    color:white !important;
+    font-family: syne !important;
+    font-size: 30px !important;
+    line-height: 36px !important;
+    font-weight: 700 !important;
+}
+.conteneurInfos{
+    width: 50%;
+    border-right: solid 1px white;
+    padding-right: 54px;
+}
+
+.conteneurLivraison{
+    width: 50%;
+    padding-left: 46px;
+}
+
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+/** Formulaire quantités commandées Page Commander **/
+
+
+}
+
+
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+
+/** Formulaire Livraison Page Commander **/    
+.formcomConteneurPrincipal {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    justify-content:left !important;
+    margin-top:  55px !important;
+    margin-bottom:  45px !important;
+    }
+
+.stitreCommande{
+    color:white;
+    font-family: syne;
+    font-size: 25px !important;
+    line-height: 30px !important;
+    font-weight: 400 !important;
+    text-align: center;
+    }
+.conteneurInfos{
+    width: 100%;
+    padding:0 !important;
+    border : none;
+    }
+    
+.conteneurLivraison{
+    margin-top: 40px !important;
+    width: 100%;
+    padding: 0 !important;
+    }
+
+
+/** Formulaire quantités commandées Page Commander **/
+
+
+
+/** Footer   **/
+
+.monFooter{
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+
+}

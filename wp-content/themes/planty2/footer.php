@@ -1,8 +1,8 @@
 
 <html>
-	<footer class="mon-footer effet-mon-footer">
+	<footer class="monFooter">
 		<p>
-			<a class="effet-mon-footer" href="">Mentions légales</a>
+			<a class="effetMonFooter" href="">Mentions légales</a>
 		</p>
 	</footer>
 	<?php wp_footer(); ?>
