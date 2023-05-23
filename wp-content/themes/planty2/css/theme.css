@@ -12,24 +12,11 @@ Tags:           Boissons naturelles aux fruits, Boissons energisantes
 Text Domain:    planty2
 */
 
+/***** Header  *****/
 
-
-
-/** Footer **/
-
-.monFooter {
+.lienAdmin{
     font-weight: 400;
     font-size: 16px;
-    background-color: white;
-    width: 100% ;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    align-items: center;
-}
-
-.effetMonFooter:hover {
-    color:black;
 }
 
 .lienAdmin:hover {
@@ -38,13 +25,27 @@ Text Domain:    planty2
 }
 
 
+/***** Formulaire Nous rencontrer  *****/
+.wpcf7-spinner{
+	margin:0px;
+	width:0px;
+}
+
+
+/***** Formulaire Qte Commandées  *****/
+.wpcf7-response-output{
+	margin:0px !important;
+    padding:0px !important;
+    border: none !important;
+}
 
 
 /** Formulaire quantités commandées Page Commander **/
+
 .conteneurPrincipalFormquantite {
     display:flex;
-    height: 80px;
-    width: 25%;
+    height: 56px;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -58,18 +59,16 @@ Text Domain:    planty2
     width: 51px !important;
     border-radius: 8px 0 0 8px !important;
     font-size: 20px !important;
-    color: red !important;
     font-weight: 500 !important;
     text-align: center !important;
-
+    margin:0px !important;
 }
 
 .boutonQuantite{
     display: flex !important;
     flex-direction: column !important;
     height: 56px !important; 
-    margin-top: 4px !important;
-    margin-right: 30px;
+    margin-top: 0px !important;
 }
 
 .boutonPlus,
@@ -82,14 +81,12 @@ Text Domain:    planty2
     margin: 0 !important;
     padding: 0 !important;
     background-color: #DC9F96 !important;
-
 }
 
 .boutonPlus {
     border-bottom: solid 1px #fFFFFF !important;
     border-radius:0px !important;
     border-top-right-radius: 8px !important;
-
 }
 
 .boutonMoins {
@@ -102,13 +99,11 @@ Text Domain:    planty2
     height: 56px !important;
     border-radius: 5px !important;
     width: 100px !important; 
-    margin-left: 11px !important;
+    margin-left: 1px !important;
 }
 
-/**[type="submit"]**/
 
-
-/** Formulaire Livraison  Page Commander **/
+/************* Formulaire Livraison  Page Commander *************/
 
 .formcomConteneurPrincipal {
     display:flex;
@@ -137,22 +132,75 @@ Text Domain:    planty2
 }
 
 
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+/******************* Footer ********************/
 
-/** Formulaire quantités commandées Page Commander **/
+.monFooter {
+    font-weight: 400;
+    font-size: 16px;
+    background-color: white;
+    width: 100% ;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    align-items: center;
+}
 
-
+.effetMonFooter:hover {
+    color:black;
 }
 
 
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+
+
+/********************************** Media queries ***********************************/
+
+
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+
+}
+
+/********************************** intermediate  devices ( less than 959px) ************/
+@media (max-width: 959px) {
     /* ... */
 
-/** Formulaire Livraison Page Commander **/    
+/************ Formulaire Qte Commandees Page Commander ****************/   
+
+.boutonMoins {
+    margin-top: -31px !important;
+    }
+
+}
+
+/********************************** Small devices (phones, less than 768px) ************/
+@media (max-width: 768.1px) {
+    /* ... */
+
+/************ Formulaire Qte Commandees Page Commander ****************/   
+
+.conteneurPrincipalFormquantite {
+    display:flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center !important;
+    }
+
+    .boutonMoins {
+    border-radius:0px !important;
+    border-bottom-right-radius: 8px !important;
+    margin-top: -31px !important;
+    }
+
+    .boutonOk  {
+    width: 95px !important; 
+    margin-left: 2px !important;
+    }
+
+/************ Formulaire Livraison Page Commander ****************/    
+
 .formcomConteneurPrincipal {
     display:flex;
     flex-direction: column;
@@ -170,6 +218,7 @@ Text Domain:    planty2
     font-weight: 400 !important;
     text-align: center;
     }
+
 .conteneurInfos{
     width: 100%;
     padding:0 !important;
@@ -183,11 +232,7 @@ Text Domain:    planty2
     }
 
 
-/** Formulaire quantités commandées Page Commander **/
-
-
-
-/** Footer   **/
+/*********** Footer  ***********/
 
 .monFooter{
     height: 25px;
@@ -195,6 +240,4 @@ Text Domain:    planty2
     text-align: center;
     align-items: center;
 }
-
-
 }
