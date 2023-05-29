@@ -37,6 +37,8 @@ Text Domain:    planty2
 	margin:0px !important;
     padding:0px !important;
     border: none !important;
+    text-align: center !important;
+    color: red !important;
 }
 
 
